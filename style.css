@@ -9,8 +9,6 @@
 }
 */
 
-
-/* Style the body with a background color or image if desired */
 body {
     font-family: Arial, sans-serif;
     background-color: black;
@@ -18,22 +16,154 @@ body {
     padding: 20px;
 }
 
-/* Style the title of your story */
 .title {
-    font-size: 100px;
+    font-size: 150px;
     font-weight: bold;
     margin-bottom: 20px;
     color: white;
 }
 
-.easy{
-    color:white;
-    background-color:gray;
+.container{
+    text-align: center;
+    width:100%;
+    align-items: center;
 }
 
-.medium{
+.ebutton{
     color:white;
+    font-size:70px;
     background-color:gray;
+    border-style:solid;
+    border-color:white;
+    border-width:5px;
+    width:50%;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+.mbutton{
+    color:white;
+    font-size:70px;
+    background-color:gray;
+    border-style:solid;
+    border-color:white;
+    border-width:5px;
+    width:50%;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+.eTitle{
+    color:rgb(43, 244, 43);
+    font-size:120px;
+}
+
+.P1{
+    font-family: "Pixelify Sans", sans-serif;
+    font-size:35px;
+    background-color:gray;
+    border-style:solid;
+    border-color:white;
+    border-width:5px;
+    color:white;
+}
+
+.P2{
+    font-family: "Pixelify Sans", sans-serif;
+    font-size:35px;
+    background-color:gray;
+    border-style:solid;
+    border-color:white;
+    border-width:5px;
+    color:white;
+}
+
+.P3{
+   font-family: "Pixelify Sans", sans-serif;
+    font-size:35px;
+    background-color:gray;
+    border-style:solid;
+    border-color:white;
+    border-width:5px;
+    color:white;
+}
+
+.P4{
+   font-family: "Pixelify Sans", sans-serif;
+    font-size:35px;
+    background-color:gray;
+    border-style:solid;
+    border-color:white;
+    border-width:5px;
+    color:white;
+}
+
+.P5{
+    font-family: "Pixelify Sans", sans-serif;
+    font-size:35px;
+    background-color:gray;
+    border-style:solid;
+    border-color:white;
+    border-width:5px;
+    color:white;
+}
+
+.helper{
+    margin-top:5px;
+}
+.duke{
+    margin-right:15px;
+    margin-top:10px;
+    border-style:solid;
+    border-color:rgb(150, 7, 102);
+    border-width:5px;
+
+}
+.contessa{
+   margin-top:10px;
+   border-style:solid;
+    border-color:rgb(146, 6, 6);
+    border-width:5px;
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+
+}
+
+.question{
+    color:white;
+    font-size:30px;
+}
+
+.instructions{
+    color:white;
+    font-size:50px;
+}
+
+.guess{
+    color:white;
+    font-size:50px;
+}
+
+.wTitle{
+    color:white;
+    font-size:100px;
+}
+
+.lTitle{
+    color:white;
+    font-size:100px;
+}
+
+.mTitle{
+    color:orange;
+    font-size:150px
 }
 
 
+
+.everything {
+ font-family: "Pixelify Sans", sans-serif;
+ font-optical-sizing: auto;
+ font-weight: lighter;
+}
